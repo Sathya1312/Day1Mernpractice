@@ -60,3 +60,11 @@ var player = {
 for (var key in player) {
   console.log(key, player[key]);
 }
+
+//Object to JSON  - JSON.stringify
+//JSON to Object - JSON.parse
+
+console.log(JSON.stringify(player));
+console.log(typeof player);
+console.log(JSON.parse(player));
+console.log(typeof player);
