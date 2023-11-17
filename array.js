@@ -64,7 +64,8 @@ for (var key in player) {
 //Object to JSON  - JSON.stringify
 //JSON to Object - JSON.parse
 
-console.log(JSON.stringify(player));
-console.log(typeof player);
-console.log(JSON.parse(player));
-console.log(typeof player);
+var playerJ = JSON.stringify(player);
+console.log(playerJ);
+console.log(typeof playerJ);
+console.log(JSON.parse(playerJ));
+console.log(typeof JSON.parse(playerJ));
