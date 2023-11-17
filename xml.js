@@ -10,4 +10,5 @@ xhr.onload = function displayResult() {
   console.log(countries);
   console.log(countries.length);
   console.log("No of countries ", countries[0].name.common);
+  console.log("JSON conversion");
 };
